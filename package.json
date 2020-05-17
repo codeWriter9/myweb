@@ -1,0 +1,26 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Simple Portfolio Project",
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --server ./src --files ./src",
+    "test": "mocha --compilers js:babel-register test/*.spec.js",
+    "deploy:github-pages": "git subtree push --prefix src origin gh-pages"
+  },
+  "author": "Sanjay Ghosh <sanjay.ghosh@gamil.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.6",
+    "npm": ">=2.15"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "yargs-parser": "^13.1.2"
+  }
+}
