@@ -78,8 +78,8 @@ ul li.active a {
 }
 .projects {
 	position: absolute;
-	top: 25%;
-	left: 20%;
+	top: 30%;
+	left: 30%;
 	transform: translate(-30%, -50%);
 }
 .projects h3 {
@@ -117,4 +117,38 @@ ul li.active a {
 .aboutMe p {
 	color: black;
 	font-size: 15px;
+}
+.subprojects {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 20px;
+  border: 2px solid #fff transparent;
+  padding: 2px 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.subprojects:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.skillsubset {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 20px;
+  border: 2px solid #fff transparent;
+  padding: 2px 16px;
+}
+.skillsubset:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.experience {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 20px;
+  border: 2px solid #fff transparent;
+  padding: 2px 16px;
+}
+.experience:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
