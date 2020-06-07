@@ -50,7 +50,7 @@ ul li.active a {
 	transform: translate(-50%, -50%);
 }
 .title  h1 {
-	color: cyan;
+	color: white;
 	font-size: 70px;
 }
 
@@ -83,7 +83,7 @@ ul li.active a {
 	transform: translate(-30%, -50%);
 }
 .projects h3 {
-	color: cyan;
+	color: white ;
 	font-size: 22px;
 }
 .projects p {
@@ -97,7 +97,7 @@ ul li.active a {
 	transform: translate(-30%, -30%);
 }
 .skills h3 {
-	color: cyan;
+	color: white ;
 	font-size: 22px;
 }
 .skills p {
@@ -114,7 +114,7 @@ ul li.active a {
 	perspective: 600px;
 }
 .aboutMe h3 {
-	color: cyan;
+	color: white ;
 	font-size: 22px;
 }
 .aboutMe p {
