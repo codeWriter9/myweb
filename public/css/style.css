@@ -173,8 +173,10 @@ ul li.active a {
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-.exp_back {
-  background-color: #bbb;
-  color: black;  
+.exp_front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.exp_back {  
   transform: rotateY(180deg);
 }
