@@ -15,6 +15,7 @@
 		"npm": ">=2.15"
 	},
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"pug": "^3.0.0"
 	}
 }

@@ -1,7 +1,6 @@
 # {
 	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
+	padding: 0;	
 }
 
 body {
@@ -76,6 +75,7 @@ ul li.active a {
 	background-color: white;
 	color: black;
 }
+/* --- Projects Section Start --- */
 .projects {
 	position: absolute;
 	top: 30%;
@@ -87,37 +87,6 @@ ul li.active a {
 	font-size: 22px;
 }
 .projects p {
-	color: black;
-	font-size: 15px;
-}
-.skills {
-	position: absolute;
-	top: 30%;
-	left: 30%;
-	transform: translate(-30%, -30%);
-}
-.skills h3 {
-	color: white ;
-	font-size: 22px;
-}
-.skills p {
-	color: black;
-	font-size: 15px;
-}
-.aboutMe {
-	position: absolute;
-	top: 30%;
-	left: 30%;
-	transform: translate(-30%, -30%);
-	width: 200px;
-	height: 260px;
-	perspective: 600px;
-}
-.aboutMe h3 {
-	color: white ;
-	font-size: 22px;
-}
-.aboutMe p {
 	color: black;
 	font-size: 15px;
 }
@@ -134,6 +103,22 @@ ul li.active a {
 .subprojects:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+/* --- Projects Section End --- */
+/* --- Skills Section Start --- */
+.skills {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-30%, -30%);
+}
+.skills h3 {
+	color: white ;
+	font-size: 22px;
+}
+.skills p {
+	color: black;
+	font-size: 15px;
+}
 .skillsubset {
 
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -144,6 +129,25 @@ ul li.active a {
 }
 .skillsubset:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* --- Skills Section End --- */
+/* --- Contacts Section Start --- */
+.aboutMe {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-30%, -30%);
+	width: 200px;
+	height: 260px;
+	perspective: 600px;
+}
+.aboutMe h3 {
+	color: white ;
+	font-size: 22px;
+}
+.aboutMe p {
+	color: black;
+	font-size: 15px;
 }
 .experience {
   width: 100%;
@@ -180,3 +184,4 @@ ul li.active a {
 .exp_back {  
   transform: rotateY(180deg);
 }
+/* --- Contacts Section End --- */
